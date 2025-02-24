@@ -1,7 +1,7 @@
-Provide your solution here:
+Provide your solution here:   
 Step 1: Check Memory Usage  
     Run the following commands to analyze memory consumption:  
-        free -h  
+       $\quad$  free -h  
     This will show total, used, and available memory.  
         sudo smem -t -k | head -20  
     This command provides a breakdown of memory usage by processes.  
