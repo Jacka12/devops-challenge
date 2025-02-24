@@ -23,8 +23,7 @@ Step 3: Review NGINX Configuration
           $\quad$ $\quad$ $\quad$       worker_connections 10240;  
          $\quad$ $\quad$ $\quad$        multi_accept on;  
            $\quad$ $\quad$ $\quad$         }  
-
-           $\quad$ $\quad$ $\quad$  http {  
+          $\quad$ $\quad$ $\quad$   http {  
            $\quad$ $\quad$ $\quad$      proxy_buffering off;  
         $\quad$ $\quad$ $\quad$         client_body_buffer_size 512k;  
         $\quad$ $\quad$ $\quad$         proxy_buffer_size 8k;  
